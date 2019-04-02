@@ -21,13 +21,13 @@ class App < Sinatra::Base
   end 
   
   get '/:operation/:number1/:number2' do
-    if params[add]
+    if params[:operation] == "add"
       
-    elsif 
+    elsif params[:operation]
       
-    elsif 
+    elsif params[:operation]
     
-    elsif 
+    elsif params[:operation]
     
     end 
       

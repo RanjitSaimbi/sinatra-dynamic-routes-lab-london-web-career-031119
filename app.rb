@@ -25,7 +25,9 @@ class App < Sinatra::Base
       
     elsif 
       
+    elsif 
     
+    elsif 
       
   end 
 

@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end 
   
    get '/square/:number' do 
-    "#{@reversed_name}"
+    "#{params[:number]*params[:number]}"
   end 
 
 end

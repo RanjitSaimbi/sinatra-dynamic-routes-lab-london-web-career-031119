@@ -22,6 +22,6 @@ class App < Sinatra::Base
   
   get 
   
-end 
+  end 
 
 end

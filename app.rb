@@ -20,6 +20,8 @@ class App < Sinatra::Base
     "#{params[:word1]} " + "#{params[:word2]} " + "#{params[:word3]} " + "#{params[:word4]} " + "#{params[:word5]}."
   end 
   
+  get 
   
+end 
 
 end

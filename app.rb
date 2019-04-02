@@ -22,13 +22,13 @@ class App < Sinatra::Base
   
   get '/:operation/:number1/:number2' do
     if params[:operation] == "add"
-      
+      ""
     elsif params[:operation] == "subtract"
-      
+      ""
     elsif params[:operation] == "multiply"
-    
+      ""
     elsif params[:operation] == "divide"
-    
+      ""
     end 
       
   end 

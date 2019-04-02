@@ -27,7 +27,7 @@ class App < Sinatra::Base
       
     elsif params[:operation] == "multiply"
     
-    elsif params[:operation] == ""
+    elsif params[:operation] == "divide"
     
     end 
       
